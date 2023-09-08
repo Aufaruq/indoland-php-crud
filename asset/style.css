@@ -1,0 +1,189 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing : border-box;
+  font-family: Helvetica;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.row{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+body {
+  background-color: #191970;
+  color: #fff;
+}
+
+[class*="col-"]{
+  padding: 15px;
+  float: left;
+
+  
+  /*border: 1px solid red;*/
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+nav{
+  width: 100%;
+  background: #00BFFF;
+  position: fixed;
+  z-index: 999 !important;
+}
+
+    .logo{
+      float: left;
+      padding: 15px 0 0 20px;
+    }
+
+      nav ul{
+        margin: 0px; padding: 0px;
+      }
+
+      nav ul li{
+        display: block;
+        float: left;
+      }
+
+      nav ul li a{
+        display :block;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: white;
+        font-family: Helvetica; font-weight: bold;
+      }
+      .right{
+        background: white;
+        float: right;
+      }
+
+      .list-menu{
+        display: none;
+        position: absolute;
+      }
+
+      .list-menu a:hover{
+        background: white;
+      }
+
+      .menu:hover .list-menu{
+        display: block;
+        min-width: 150px;
+        background: white;
+      }
+
+#banner{
+  width: 100%;
+  min-height: 640px;
+  background: url('img/header/ilrp.png') no-repeat fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+      .master-title{
+        font-size: 25px;
+        text-align: center;
+      }
+
+      .area{
+        padding-top: 200px;
+      }
+
+      .main-title{
+        font-family: Helvetica;
+        font-size: 35px;
+      }
+
+      .sub-main-title{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .main-title-desc{
+        text-align: center;
+      }
+
+/*PHOTO GRID*/
+.titlePhoto{
+  text-align: center;
+}
+
+.box-photo{
+  width: 200x;
+  height: 200px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  padding: 5px;
+}
+
+/*FOOTER*/
+footer{
+  width: 100%;
+  background: #333;
+  color: #FFF;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: red; transition: all 1s;
+}
+
+
+/*FORM*/
+.form-box{
+  width: 200px; height: 50px;
+  display: block;
+  margin-bottom: 15px;
+  border: 2px solid white;
+  background: white;
+  text-indent: 10px; font-size: 15px;
+}
+.form-button{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  /* background: transparent;
+  border: 2px solid white;
+  margin: 0 auto;
+  display: block;
+  padding:15px; */
+}
+
+
+.center{
+  margin: 0 auto;
+}
